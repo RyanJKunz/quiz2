@@ -1,3 +1,4 @@
-consle.log('welocme to quiz town, population...YOU!')
+console.log('welcome to quiz town, population...YOU!')
 
-@('.dynamic').hmtl('<div p>HI THERE, I\'M FROM JAVASCRIPT</p></div>').fadeIn('slo')
+$(document).ready(function () {
+    $('.dynamic').fadeIn('slow')});
